@@ -30,7 +30,8 @@ function getUserInfo(user) {
     document.getElementById('name').innerHTML = user.name ? user.name : 'Não definido';
     document.getElementById('login').innerHTML = user.login ? user.login : 'Não definido';
     document.getElementById('type').innerHTML = user.type ? user.type : 'Não definido';
-    document.getElementById('html_url').innerHTML = user.html_url ? user.html_url : 'Não definido';
+    document.getElementById('html_url').href = user.html_url ? user.html_url : 'Não definido';
+    document.getElementById('html_url').innerHTML = user.html_url;
     document.getElementById('company').innerHTML = user.company ? user.company : 'Não definido';
     document.getElementById('blog').innerHTML = user.blog ? user.blog : 'Não definido';
     document.getElementById('location').innerHTML = user.location ? user.location : 'Não definido';
