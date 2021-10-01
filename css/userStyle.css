@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background: #121214;
+    width: 100vw;
+    height: 100vh;
+    
+
+    color: #FFF;
+    font-family: 'Ubunto', sans-serif ;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 1.7rem;
+    padding: 15px;
+}
+
+li {
+    list-style-type: none;
+    color: rgb(63,94,251);
+    color: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(126,10,161,1) 100%);
+}
+
+span {
+    color: #FFF;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background: #5A00CC;
+}
+
+aside {
+    border-right: #FFF solid 2px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+aside section {
+    font-size: 30px;
+    font-family: 'Poppins', 'Ubunto', sans-serif;
+
+    height: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+aside footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 124px;
+}
+
+aside section header  {
+   background: transparent;
+   display: flex;
+   text-align: left;
+}
+
+aside section header img {
+    height: 200px;
+    border-radius: 10px;
+    border: #5A00CC solid 5px;
+    display: flex;
+}
+
+button {
+    background: #5A00CC;
+    color: #FFF;
+    
+    font-size: 20px;
+    font-weight: 600; 
+    border: none;
+
+    height: 60%;
+    width: 60%;
+
+    cursor: pointer;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background .8s ease;
+}
+
+footer button svg {
+    width: 48px;
+    height:48px;
+
+    margin-right: 25px;
+
+    fill: #FFF;
+}
+
+footer button:hover {
+    background: #734AE8;
+}
+
+.header {
+    margin: 20px;
+}
+
+main {
+    width: 60%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    font-size: 18px;
+}
+
+main header {
+    position: fixed;
+    width: 60%;  
+}
+
+main header + section {
+    padding-top: 80px;
+}
+ 
+main section  {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+main section ul {
+    padding-bottom: 30px;
+    border-bottom: #FFF solid 1px;
+}
+
+a {
+    color: #FFF;
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+   

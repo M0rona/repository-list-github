@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APIGitHub</title>
+    <link rel="stylesheet" href="../css/userStyle.css">
+    <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/de134c6a8d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body onload="getUser(event)">
+    <aside>
+        <header>
+            <h1>INFORMAÇÕES DA CONTA:</h1>
+        </header>
+
+        <section>
+            <header>
+                <img id="avatar_url" src="avatar_url" alt="avatarNotFound">
+                <div class="header">
+                    <li>Nome: <span id="name"></span></li>
+                    <li>Login: <span id="login"></span></li>
+                    <li>Tipo: <span id="type"></span></li>
+                </div>
+
+            </header>
+
+            <ul>
+                <li>URL: <span id="html_url"></span></li>
+                <li>Empresa: <span id="company"></span></li>
+                <li>Blog: <span id="blog"></span></li>
+                <li>Localização: <span id="location"></span></li>
+                <li>Email: <span id="email"></span></li>
+                <li>Bio: <span id="bio"></span></li>
+                <li>Repositorios Publicos: <span id="public_repos"></span></li>
+                <li>Seguidores: <span id="followers"></span></li>
+                <li>Seguindo: <span id="following"></span></li>
+                <li>Criado em: <span id="created_at"></span></li>
+                <li>Atualizado em: <span id="updated_at"></span></li>
+            </ul>
+
+        </section>
+
+
+        <footer>
+            <button onclick="goBack()">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-left"
+                    class="svg-inline--fa fa-long-arrow-alt-left fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512">
+                    <path fill="currentColor"
+                        d="M134.059 296H436c6.627 0 12-5.373 12-12v-56c0-6.627-5.373-12-12-12H134.059v-46.059c0-21.382-25.851-32.09-40.971-16.971L7.029 239.029c-9.373 9.373-9.373 24.569 0 33.941l86.059 86.059c15.119 15.119 40.971 4.411 40.971-16.971V296z">
+                    </path>
+                </svg>
+                Buscar mais repositorios
+            </button>
+        </footer>
+    </aside>
+
+    <main>
+        <header>
+            <h1>INFORMAÇÕES IMPORTANTES DOS REPOSITÓRIOS:</h1>
+        </header>
+
+        <section id="repositories">
+
+        </section>
+    </main>
+</body>
+
+</html>
