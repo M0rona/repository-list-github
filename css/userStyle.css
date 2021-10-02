@@ -74,6 +74,7 @@ aside section header  {
    background: transparent;
    display: flex;
    text-align: left;
+   font-size: 30px;
 }
 
 aside section header img {
