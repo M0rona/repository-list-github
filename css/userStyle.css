@@ -30,6 +30,10 @@ span {
     color: #FFF;
 }
 
+#id {
+    font-size:10px;
+}
+
 header {
     width: 100%;
     text-align: center;
